@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Python Automation: It's More Than Just For Testing!</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					Python Automation: It's More Than Just For Testing!
+				</section>
+				<!-- show of hands, how many of you have used Python before? -->
+				<!-- keep your hand up if you've used Python for testing -->
+				<!-- keep your hand up if you've used Python for non-testing related automation -->
+				<!-- then click AFTER all this -->
+				<section>
+					<h1><span class="fragment">Python is cool...</span><span class="fragment">but what can we do with it really?</span></h1>
+				</section>
+				<section>
+					<section id="fragments">
+						<h2>
+							Use cases
+						</h2>
+						<p>Python can be used to automate...</p>
+						<p class="fragment"></p>
+						<p><span class="fragment">web scraping,</span> <span class="fragment">data gathering,</span> <span class="fragment">texting, </span> <span class="fragment">emailing, </span> <span class="fragment">news summarizing, </span> <span class="fragment">data classifying, </span> <span class="fragment">and the list goes on and on!</span></p>
+					</section>
+					<!-- I'd be here all day if I wanted to rattle off every single test case! -->
+				</section>
+				<section>
+					Examples!
+				</section>
+				<section>
+					<h1>Libraries</h1>
+					<ul>
+						<li><strong>Sumy (text summarizer) - </strong>https://github.com/miso-belica/sumy</li>
+						<li><strong>Twilio (text messaging and calling) - </strong>https://github.com/twilio/twilio-python</li>
+						<li><strong>Google API Python Client (Adsense, analytics, calendar, etc.) - </strong>https://github.com/google/google-api-python-client</li>
+					</ul>
+				</section>
+				<section>
+					<h1>Github</h1>
+					<h2>https://github.com/MarwanNakhaleh/20180510_automation_testers_indy_talk (examples in <b>python</b> folder)</h2>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
